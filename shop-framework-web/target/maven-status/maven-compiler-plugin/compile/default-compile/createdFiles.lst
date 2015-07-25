@@ -1,0 +1,10 @@
+com\pfrig\web\shop\util\ShopProperties.class
+com\pfrig\web\shop\dto\MenuDTOUtil.class
+com\pfrig\web\shop\util\AppContext.class
+com\pfrig\web\shop\util\ShopConfigurationFilter.class
+com\pfrig\web\shop\controller\MenuController.class
+com\pfrig\web\shop\dto\SubMenuDTO.class
+com\pfrig\web\shop\util\SpringPropertiesUtil.class
+com\pfrig\web\shop\dto\MenuDTO.class
+com\pfrig\web\shop\controller\WelcomeController.class
+com\pfrig\web\shop\util\ShopCartProvider.class

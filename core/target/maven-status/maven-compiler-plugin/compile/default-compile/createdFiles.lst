@@ -1,0 +1,8 @@
+com\pfrig\core\dto\MenuDTO.class
+com\pfrig\core\dao\MenuActionImpl$2.class
+com\pfrig\core\dao\MenuActionImpl$3.class
+com\pfrig\core\dao\MenuAction.class
+com\pfrig\core\dto\SubMenuDTO.class
+com\pfrig\core\connection\DBConnection.class
+com\pfrig\core\dao\MenuActionImpl.class
+com\pfrig\core\dao\MenuActionImpl$1.class

@@ -1,0 +1,508 @@
+
+.center {
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+.firstCenter{
+	width: 678px;
+	float: left;
+}
+
+.secondCenter{
+	float: left;
+	width: 322px;
+}
+
+.firstBgr{
+	background-image:url('../images/pizza_215.jpg');
+	width: 100%;
+	height: 200px;
+}
+
+.firstHead{
+	padding: 0px;
+	background-color: #f3dc9d;
+	color: #333333;
+}
+
+.txtFirstHead {
+	font-size: 12px;
+	line-height: 27px;
+	text-align: left;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.oddRow{
+	background-color: #fcf9f2;
+	color: #333333;
+	height: 50px;
+}
+
+.evenRow {
+	background-color: #f9f4e7;
+	color: #333333;
+	height: 50px;
+}
+
+.oddFirstText {
+	color: #ca3e27;
+	font-size: 12px;
+	font-weight: bold;
+	position: relative;
+	top: 6px;
+	left: 9px;
+}
+
+.oddFirstPrice {
+	float: right;
+	position: relative;
+	right: 20px;
+	font-size: 13px;
+}
+
+.oddFirstPrice:hover {
+	background-color: #ca3e27;
+	color: white;
+	cursor: pointer;
+}
+
+.oddSecondText {
+	font-size: 11px;
+	position: relative;
+	top: 10px;
+	left: 9px;
+}
+
+.cartText{
+	line-height: 28px;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0px 0px 0px 10px;
+	color: #ffffff;
+	background-color: #ad0a07;
+	margin-top: 200px
+}
+
+.summaryText {
+	width: 197px;
+	text-align: right;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.summaryPrice {
+	margin-left: 20px;
+	width: 77px;
+	display: inline-block;
+	text-align: right;
+	padding-right: 3px;
+}
+
+.bigShopCart{
+	background-color: #f4e3b4;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+.smallCartText {
+	width: 227px;
+	display: inline-block;
+	font-size: 11px;
+	font-weight: bold;
+	margin-left: 10px;
+	padding: 0 0 5px 0;
+}
+
+.smallCartPrice {
+	font-size: 11px;
+	margin-left: 35px;
+}
+
+.smallCartPriceTotal {
+	font-size: 11px;
+	position: relative;
+	top: 7px;
+	float: right;
+	right: 13px;
+	font-weight: bold;
+}
+
+.rowCart {
+	margin-bottom: 2px;
+}
+
+.cartRowSplit{
+	background-color: #F5ECD4;
+	height: 10px;
+}
+
+#summaryBlock {
+	display: inline-block;
+	padding-bottom: 10px;
+	padding-top: 6px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.addArticle{
+	background-image:url('../images/btn-v05.png');
+	background-position: -244px -40px;
+	width: 29px;
+	height: 17px;
+	display: inline-block;
+	position: relative;
+	top: 2px;
+	text-align: center;
+	font-size: 11px;
+	color: #c54f00;
+	line-height: 15px;
+}
+
+
+.removeArticle{
+	background-image:url('../images/btn-v05.png');
+	background-position: -272px -40px;;
+	width: 29px;
+	height: 17px;
+	display: inline-block;
+	position: relative;
+	top: 2px;
+	left: -5px;
+	text-align: center;
+	font-size: 11px;
+	color: #c54f00;
+	line-height: 15px;
+}
+
+.extraArticle {
+	background-image:url('../images/btn-v05.png');
+	background-position: -160px -40px;
+	width: 72px;
+	font-size: 11px;
+	height: 17px;
+	line-height: 15px;
+	font-weight: normal;
+	display: inline-block;
+	color: #c54f00;
+	position: relative;
+	top: 2px;
+	text-align: center;
+}
+
+.extraArticle:hover {
+	background-image:url('../images/btn-v05.png');
+	background-position: -160px -100px;
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.warnMinPrice {
+	padding: 5px 12px 0px 12px;
+}
+
+.warnMinPrice .first {
+	height: 12px;
+	background-image: url('../images/min-price-top.png');
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+.warnMinPrice .second {
+	font-weight: normal;
+	padding: 0px 15px;
+	font-size: 11px;
+	color: #333333;
+	background-image: url('../images/min-price.png');
+	background-repeat: repeat-y;
+	background-position: top right;
+	padding-left: 40px;
+}
+
+.warnMinPrice .last {
+	height: 12px;
+	background-image: url('../images/min-price-last.png');
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+#realMinPrice {
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.btnOrder {
+	background-position: -790px -10px;
+	background-image:url('../images/btn-v05.png');
+	width: 150px;
+	font-size: 11px;
+	height: 23px;
+	line-height: 23px;
+	font-weight: bold;
+	color: #c54f00;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	left: 163px;
+}
+
+.orderBlock {
+	float: none;
+	padding: 10px 8px 10px 0;
+}
+
+.customerInfo {
+	padding: 0px 0px 5px 0px;
+	font-size: 11px;
+	margin-top: 10px;
+}
+
+.regLine {
+	padding-bottom: 10px;
+}
+
+.regLine input[type="text"] {
+	border: solid 1px;
+	margin: 5px 0;
+	border-color: #b6b7b7;
+	width: 140px;
+	font-size: 12px;
+}
+
+.regColumnLeft {
+	width: 135px;
+	display: inline-block;
+	margin-left: 18px;
+}
+
+.regColumnRight {
+	width: 145px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.regLine input[type="radio"] {
+	margin-left: 20px;
+	margin-right: 7px;
+}
+
+.regColLong{
+	width: 194px;
+}
+
+.regColShort {
+	width: 80px;
+}
+
+.singleColumn{
+	margin-left: 19px;
+	display: inline-block;
+}
+	
+.regLine textarea {
+	border: solid 1px ;
+	border-color: #b6b7b7;
+	margin-top: 6px;
+}
+
+.subDialogMain {
+	margin: 3px 5px 0 4px;
+}
+
+.dialogMainMenu {
+	border-left: solid 1px #cccccc;
+	border-top: solid 1px #cccccc;
+	border-right: solid 1px #cccccc;
+	background-color: #f9f9f9;
+	margin: 0px 0px 0px 0px;
+	background-color: #eaeaea;
+	background-color: #eaeaea;
+	margin: 7px 3px 0px 3px;
+}
+
+.dialogFirstRow {
+	height: 40px;
+	font-family: Verdana, Arial, Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	display: inline-flex;
+}
+
+.dialogDotted {
+	background-image: url('../images/dotted.gif');
+	height: 1px;
+}
+
+.dialogMenuName {
+	font-weight: bold;
+	padding: 3px 12px 2px 12px;
+	font-size: 11px;
+}
+
+.dialogMenuDes {
+	padding: 3px 12px 2px 12px;
+	font-size: 11px;
+}
+
+.dialogMenuLeft {
+	width: 600px;
+}
+
+.dialogMenuRight {
+	width: 70px;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.dialogSecondRow {
+	font-family: Verdana, Arial, Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	padding: 0px 0px 3px 0px;
+	border-bottom: solid 1px #cccccc;
+	display: inline-flex;
+}
+
+.dialogExtraFirst {
+	font-weight: bold;
+	width: 120px;
+	margin: 4px 0 5px 10px;
+}
+
+.dialogExtraSecond {
+	background-color: transparent;
+	margin-top: 4px;
+	width: 480px;
+}
+
+.dialogExtraSecond a {
+	text-decoration: none;
+	color: #c54f00;
+}
+.dialogExtraSecond a:hover {
+	text-decoration: line-through;
+}
+
+.dialogExtraThird {
+	width: 70px;
+}
+
+.dialogThirdRow {
+	border-bottom: solid 1px #cccccc;
+	background-color: white;
+	height: 30px;
+}
+.dlgBtnFirstCol {
+	width: 420px;
+	display: inline-block;
+}
+
+.dlgBtnSecCol {
+	width: 160px;
+	background-image:url('../images/btn-v05.png');
+	background-position: -10px -10px;
+	position: relative;
+	text-align: center;
+	font-family: Tahoma, Geneva, Kalimati, sans-serif;
+	color: #c54f00;
+	width: 138px;
+	font-size: 11px;
+	height: 21px;
+	line-height: 21px;
+	display: inline-block;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.dlgBtnSecCol:hover {
+	background-image:url('../images/btn-v05.png');
+	background-position: -10px -70px;
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.dlgBtnThirdCol{
+	display: inline-block;
+	width: 100px;
+	font-family: Verdana, Arial, Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: right;
+}
+
+.dialogFourRow {
+	background-color: white;
+	margin-top: 10px;
+	padding-bottom: 30px;
+	font-size: 11px;
+	font-family: Verdana,Arial,Tahoma,Helvetica,Sans-Serif!important;
+}
+
+.dlgExtraText {
+	text-align: center;
+	font-size: 12px;
+	color: #333333;
+	font-weight: bold;
+	background-image: url('../images/no-alert.gif');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	padding: 20px 0px 22px 0px;
+	font-family: Verdana,Arial,Tahoma,Helvetica,Sans-Serif!important;
+}
+
+.dlgSubRow {
+	font-size: 11px;
+	font-family: Verdana,Arial,Tahoma,Helvetica,Sans-Serif!important;
+	margin-top:8px;
+}
+
+.dlgSubColFirst{
+	display: inline-block;
+	width: 169px;
+	margin-left: 20px;
+	margin-top:8px;
+}
+
+.dlgSubName {
+	font-weight: bold;
+	color: #c54f00;
+}
+.dlgSubName:HOVER {
+	background-color: #ca3e27;
+	color: white;
+	cursor: pointer;
+}
+
+.dlgSubPrice {
+	float: right;
+}
+
+.dlgSubColSpace {
+	display: inline-block;
+	width: 40px;
+	height: 13px;
+}
+
+.subMenuRow {
+	background-color: #F5ECD4;
+	font-family: Verdana, Arial, sans-serif;
+	line-height: 18px;
+}
+
+.smallSubName {
+	font-size: 11px;
+	margin-left: 10px;
+	width: 227px;
+	display: inline-block;
+	color: #ca3e27;
+}
+
+.smallSubPrice {
+	font-size: 11px;
+	margin-left: 35px;
+}

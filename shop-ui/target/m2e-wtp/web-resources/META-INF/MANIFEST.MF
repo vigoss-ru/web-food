@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Title: shop-ui
+Implementation-Version: 0.0.5-SNAPSHOT
+Implementation-Vendor-Id: com.pfrig.bl
+Build-Jdk: 1.7.0_45
+Built-By: Hong
+Created-By: Maven Integration for Eclipse
+
