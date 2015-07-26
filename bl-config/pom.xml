@@ -27,7 +27,7 @@
 			</activation>
 			<properties>
 				<!-- Choose your default mandant (nextiraone/franke) -->
-				<bl.config.mandant>franke</bl.config.mandant>
+				<bl.config.mandant>pfrig</bl.config.mandant>
 			</properties>
 		</profile>
 
